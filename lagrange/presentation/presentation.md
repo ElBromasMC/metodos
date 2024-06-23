@@ -147,7 +147,7 @@ $~$
 
 ##
 
-### Resultados b
+### Resultado b
 
 La segunda parte calcula el polinomio interpolador de Lagrange, multiplicando las bases
 con sus respectivas ordenadas.
@@ -156,7 +156,7 @@ con sus respectivas ordenadas.
 
 ##
 
-### Resultados c
+### Resultado c
 
 La tercera parte grafica la función inicial junto a su interpolación. A simple vista pareciese
 que ambas gráficas coinciden exactamente.
@@ -174,7 +174,7 @@ que difieren en una magnitud muy pequeña en el intervalo $[-4, +4]$
 
 ##
 
-### Resultados d
+### Resultado d
 
 Finalmente, el programa nos muestra el error absoluto entre la función y nuestra interpolación
 en el punto $t = 1/2$. Notamos que es una magnitud pequeña ($<0.01$)
