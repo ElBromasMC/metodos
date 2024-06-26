@@ -1,6 +1,6 @@
 ---
 title: Polinomio interpolador de Lagrange 
-subtitle: Laboratorio 1
+subtitle: Laboratorio 2
 author: Linares Rojas, Ander Rafael
 date: \today{}
 institute: Universidad Nacional Mayor de San Marcos
@@ -17,45 +17,31 @@ header-includes:
 - \logo{\includegraphics[width=1cm]{./images/unmsm.png}}
 ---
 
-# Ejercicio 1
+# Ejercicio 2
 
 ## Resultados
 
 ### Resultado a
 
-La primera parte del programa calcula los polinomios base de Lagrange y su respectivo polinomio interpolador para las dos muestras.
+La primera parte del programa calcula los polinomios base de Lagrange y su respectivo polinomio interpolador.
 
 $~$
 
-![Muestra 1](./images/a1.png)
-
-##
-
-###
-
-![Muestra 2](./images/a2.png)
+![Polinomio interpolador de Lagrange](./images/a.png)
 
 ##
 
 ### Resultado b
 
-La segunda parte muestra las gráficas de los polinomios interpoladores para ambas muestras.
+La segunda parte aproxima el instante donde la velocidad es 11.2 m/s usando el polinomio interpolador.
 
-![Gráfica de los polinomios interpoladores](./images/b.png){width=70%}
+![Aproximación](./images/b.png)
 
 ##
 
 ### Resultado c
 
-La tercera parte calcula el máximo aproximado de los polinomios interpoladores en el dominio [0, 28].
+Finalmente, el programa grafica el polinomio interpolador y sus respectivos polinomios base.
 
-![Aproximación](./images/c.png)
-
-##
-
-### Resultado d
-
-Finalmente, el programa grafica los polinomios base de Lagrange para cada caso.
-
-![Gráfica de las bases](./images/d.png){width=70%}
+![El polinomio interpolador y sus bases](./images/c.png){width=70%}
 
